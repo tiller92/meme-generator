@@ -1,0 +1,107 @@
+* {
+    background-color: #2b56a1;
+}
+
+.memeList {
+    position: relative;
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
+    top: 50px;
+    margin: auto;
+    background-color: ;
+}
+
+.image {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    padding: 0px;
+    z-index: 1;
+}
+
+.memeListTop {
+    position: absolute;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    font-family: 'Coda Caption', sans-serif;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+    top: 20px;
+    left: 20px;
+}
+
+.memeListBottom {
+    position: absolute;
+    font-family: 'Coda Caption', sans-serif;
+    color: white;
+    background-color: transparent;
+    font-size: 15px;
+    z-index: 3;
+    top: 250px;
+    left: 40px;
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: white;
+    width: 80%;
+    display: block;
+    position: relative;
+    padding: 10px;
+    margin: auto;
+}
+
+form {
+    width: 100%;
+    height: 300px;
+}
+
+h1 {
+    font-family: 'Coda Caption', sans-serif;
+    text-align: center;
+    background-color: #2b56a1;
+}
+
+button {
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    border-radius: 20% / 100%;
+    background-color: lavender;
+}
+
+button:hover {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #2b56a1;
+}
+
+.removeBtn {
+    text-align: center;
+    position: absolute;
+    display: inline;
+    left: 350px;
+    font-size: 50px;
+    height: 80px;
+    width: 80px;
+    top: 100px;
+    color: lavender;
+}
+
+.removeBtn:hover {
+    color: red;
+    cursor: pointer;
+}
